@@ -1,0 +1,135 @@
+.about{
+    margin-bottom: 100px;
+}
+
+.about__title{
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 75px;
+    margin-bottom: 40px;
+}
+
+.about__title-p{
+    font-style: italic;
+    color: #B0907A;
+}
+
+.about__photo{
+    overflow: hidden;
+    min-height: 1060px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 40px;
+    display: grid;
+}
+
+.about__wrapper{
+    overflow: hidden;
+    scale: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/img/page1/about/about-1.svg);
+    grid-row: span 4;
+    &:hover{
+        scale: 100%;
+    }
+}
+
+
+
+.about__block{
+
+    border-radius: 20px;
+}
+
+
+
+
+.about__1{
+    transition: all 1s;
+    background-image: url(/img/page1/about/about-1.svg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    scale: 110%;
+    &:hover{
+        scale: 100%;
+    }
+}
+
+.about__2{
+    transition: all 1s;
+    background-image: url(/img/page1/about/about-3.svg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    scale: 110%;
+    &:hover{
+        scale: 100%;
+    }
+}
+
+.about__3{
+    transition: all 1s;
+    background-image: url(/img/page1/about/about-4.svg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    scale: 110%;
+    &:hover{
+        scale: 100%;
+    }
+}
+
+.about__4{
+    transition: all 1s;
+    background-image: url(/img/page1/about/about-2.svg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    scale: 110%;
+    &:hover{
+        scale: 100%;
+    }
+}
+
+.about__wrapper__1{
+    border-radius: 20px;
+    overflow: hidden;
+    grid-row: span 4;
+    &:hover{
+        scale: 100%;
+    }
+}
+
+.about__wrapper__2{
+    border-radius: 20px;
+    overflow: hidden;
+    grid-row: span 3;
+    &:hover{
+        scale: 100%;
+    }
+}
+
+.about__wrapper__3{
+    border-radius: 20px;
+    overflow: hidden;
+    grid-row: span 4;
+    &:hover{
+        scale: 100%;
+    }
+}
+
+.about__wrapper__4{
+    border-radius: 20px;
+    overflow: hidden;
+    grid-row: span 3;
+    &:hover{
+        scale: 100%;
+    }
+}

@@ -1,0 +1,87 @@
+// @import "partials/partial.scss";
+// @import "theme/typography";
+
+// @mixin flex ($align: center) {
+//   display: flex;
+//   align-items: $align;
+//   justify-content: $align;
+// }
+
+// .block {
+//   @include  flex(start)
+// }
+
+
+// %table {
+//   background-color: red;
+//   border-radius: 20px;
+// }
+
+
+// .table1 {
+//   @extend %table
+// }
+
+// $mobile: 375px;
+
+// .button {
+//   background-color: black;
+//   &:hover {
+//     background-color: #665F55;
+//   }
+
+//   @media screen and (max-width: $mobile) {
+
+// color:blue;
+//   }
+// }
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Inika&family=Inter:wght@400;600&display=swap');
+@import 'header';
+@import 'enjoy';
+@import 'favorite';
+@import 'about';
+@import 'mobile-app';
+@import 'footer';
+
+html{
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  &:before, &::after {
+    box-sizing: inherit;
+  }
+}
+
+
+body{
+  background-color: #E1D4C9;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #403F3D;
+}
+
+
+.wrapper{
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.border{
+  margin: auto;
+  width: 0;
+  transition: 0.5s ;
+  background-color: #403F3D;
+  height: 2px;
+  opacity: 0;
+} 
+
+
+
+
